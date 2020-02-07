@@ -9,8 +9,13 @@ This is not an official release from pantheon.io.  The user agrees that the auth
 ## Terminus
 Terminus is Pantheon's Command Line Interface (CLI), providing at least equivalent functionality to the Pantheon's browser-based Dashboard and easier scripting.
 
-## Requirements
+## Included in this setup are:
 
+* build tools plugin
+* composer plugin
+* site clone plugin
+
+## Requirements
 
 * PC / Laptop
     * At least 8GB of RAM
