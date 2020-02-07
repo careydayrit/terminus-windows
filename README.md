@@ -4,7 +4,7 @@ Terminus running on Virtual Machine for Windows.
 Since terminus is not fully functioning on a Windows Machine, this vagrant setup is capable to run it properly.
 
 # Note
-The user agrees that the author is not liable for any data loss or security related issues.  
+This is not an official release from pantheon.io.  The user agrees that the author is not liable for any data loss or security related issues.  
 
 ## Terminus
 Terminus is Pantheon's Command Line Interface (CLI), providing at least equivalent functionality to the Pantheon's browser-based Dashboard and easier scripting.
