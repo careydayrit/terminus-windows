@@ -50,11 +50,6 @@ c:\Users\username\terminus-windows\ vagrant ssh
 ~$ terminus auth:login --machine-token=‹machine-token›
 ```
 
-or
-
-```
-~$ terminus auth:login --email=dev@example.com
-```
 
 
 
