@@ -21,36 +21,37 @@ Terminus is Pantheon's Command Line Interface (CLI), providing at least equivale
 
 * clone the repository
 ```
-git clone
+c:\Users\username\ git clone git@github.com:careydayrit/terminus-windows.git terminus-windows
 ```
 
 * run vagrant 
 
 ```
-vagrant up
+c:\Users\username\ cd terminus-windows
+c:\Users\username\terminus-windows\ vagrant up
 ```
 
 * connect to the virtual machine 
 
 ```
-vagrant ssh
+c:\Users\username\terminus-windows\ vagrant ssh
 ```
-* add the ssh public key to pantheon
+* copya and paste then add the ssh public key to pantheon
 
 ```
-cat ~/.ssh/id_rsa.pub
+~$ cat ~/.ssh/id_rsa.pub
 ```
 
 * authenticate
 
 ```
-terminus auth:login --machine-token=‹machine-token›
+~$ terminus auth:login --machine-token=‹machine-token›
 ```
 
 or
 
 ```
-terminus auth:login --email=dev@example.com
+~$ terminus auth:login --email=dev@example.com
 ```
 
 
