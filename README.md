@@ -11,11 +11,13 @@ Terminus is Pantheon's Command Line Interface (CLI), providing at least equivale
 
 ## Requirements
 
-* Virtual Box
-* Vagrant
+
 * PC / Laptop
     * At least 8GB of RAM
     * CPU that supports Hyper-V or AMD Virtualization
+* git
+* Virtual Box
+* Vagrant
 
 ## Instruction
 
@@ -36,7 +38,7 @@ c:\Users\username\terminus-windows\ vagrant up
 ```
 c:\Users\username\terminus-windows\ vagrant ssh
 ```
-* copya and paste then add the ssh public key to pantheon
+* copy and paste then add the ssh public key to pantheon
 
 ```
 ~$ cat ~/.ssh/id_rsa.pub
