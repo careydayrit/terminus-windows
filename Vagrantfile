@@ -42,6 +42,7 @@ Vagrant.configure(2) do |config|
   
   # Sync folder
   config.vm.synced_folder "./vagrant", "/vagrant"
+  config.vm.synced_folder "./bin", "/home/vagrant/bin", owner: "vagrant", group: "vagrant"
   
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
